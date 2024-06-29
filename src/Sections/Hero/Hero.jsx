@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./HeroStyles.module.css";
 import userImg from "../../assets/Yoedit2.png";
 import sun from "../../assets/sun.svg";
@@ -12,15 +12,10 @@ import { useTheme } from "../../common/ThemeContext";
 
 export const Hero = () => {
   const { theme, toggleTheme } = useTheme();
-  const [themeIcon, setThemeIcon] = useState(theme === "light" ? sun : moon);
-  const [linkedinIcon, setLinkedinIcon] = useState(theme === "light" ? linkedinLight : linkedinDark);
-  const [githubIcon, setGithubIcon] = useState(theme === "light" ? githubLight : githubDark);
 
-  useEffect(() => {
-    setThemeIcon(theme === "light" ? sun : moon);
-    setLinkedinIcon(theme === "light" ? linkedinLight : linkedinDark);
-    setGithubIcon(theme === "light" ? githubLight : githubDark);
-  }, [theme]);
+  const themeIcon = theme === "light" ? sun : moon;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -55,7 +50,7 @@ export const Hero = () => {
           </span>
         </div>
         <p className={styles.description}> 
-          "Crafting solutions one line at a time."
+        "Crafting solutions one line at a time."
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
