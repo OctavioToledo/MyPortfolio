@@ -53,7 +53,7 @@ export const Hero = () => {
         "Crafting solutions one line at a time."
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">Download CV</button>
         </a>
       </div>
     </section>
