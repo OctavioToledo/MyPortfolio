@@ -10,7 +10,7 @@ const AboutMe = () => {
       <h1 className="sectionTitle">About Me</h1>
       <p className={styles.description}>
         Hello! ✋ I'm Octavio, 23 years old, and I'm passionate about the world
-        of technology. 👨‍💻 With 2 years of experience as a full-stack developer,
+        of technology. 👨‍💻 With 2 years of experience as a Software developer,
         I graduated as a University Technician in Programming. I thrive on
         solving complex problems and embracing new challenges in software
         development, especially within collaborative team environments. My

@@ -36,7 +36,7 @@ export const Hero = () => {
         <h1>
           Octavio <br /> Toledo
         </h1>
-        <h2>Fullstack Developer</h2>
+        <h2>Software Developer</h2>
         <div className={styles.socialIcons}>
           <span>
             <a href="https://www.linkedin.com/in/octavio-toledo7/" target="_blank">
