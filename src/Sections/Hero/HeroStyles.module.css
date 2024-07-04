@@ -37,6 +37,7 @@
   
   .socialIcons span a img {
     width: 30px;
+    background-color: transparent;
   }
   
   a {
@@ -73,6 +74,7 @@
   .colorMode {
     position: absolute;
     max-width: 35px;
+    background-color: transparent;
   }
   
   .colorMode:hover {

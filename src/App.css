@@ -1,4 +1,14 @@
 :root {
+  --background-color: #fff;
+  --btn-color: #000000;
+  --btn-text-color: #fff;
+  --project-card-bg: #ffffff00;
+  --text-color: #222;
+  --form-text-color: #555;
+  --footer-text-color: #888;
+}
+
+[data-theme='dark'] {
   --background-color: #222;
   --btn-color: #fff;
   --btn-text-color: #222;
@@ -7,15 +17,6 @@
   --form-text-color: #fff;
   --footer-text-color: #bbb;
 }
-[data-theme="light"] {
-  --background-color: #fff;
-  --btn-color: #222;
-  --btn-text-color: #fff;
-  --project-card-bg: #ffffff00;
-  --text-color: #222;
-  --form-text-color: #555;
-  --footer-text-color: #888;
-}
 
 body {
   background-color: var(--background-color);
@@ -23,6 +24,7 @@ body {
   justify-content: center;
   margin: 0 auto 60px;
 }
+
 #root {
   display: flex;
   flex-direction: column;
@@ -37,10 +39,11 @@ p {
   margin: 0;
   padding: 0;
 }
+
 h2,
 h3,
 p {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h1,
@@ -52,8 +55,9 @@ h2,
 h3 {
   font-size: 20px;
 }
+
 h1 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 32px;
 }
 
@@ -61,12 +65,15 @@ p {
   font-size: 16px;
   font-weight: 300;
 }
+
 .sectionTitle {
   margin-bottom: 30px;
 }
+
 .hover {
   cursor: pointer;
 }
+
 @media (width >= 800px) {
   #root {
     gap: 100px;
