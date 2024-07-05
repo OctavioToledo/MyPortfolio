@@ -13,7 +13,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={buenSaborImg}
-          githubLink="https://github.com/brunoSacchetti/Ecommerce-ElBuenSabor-V1"
+          githubLink=""/* "https://github.com/brunoSacchetti/Ecommerce-ElBuenSabor-V1" */
           deployLink="https://buen-sabor-ecommerce-ten.vercel.app"
           h3="E-commerce"
           p="Buen Sabor E-commerce"
@@ -22,7 +22,7 @@ function Projects() {
         />
         <ProjectCard
           src={proImg}
-          githubLink="https://github.com/brunoSacchetti/elBuenSaborBackend"
+          githubLink=""/* "https://github.com/brunoSacchetti/elBuenSaborBackend" */
           deployLink="https://elbuensabor-dashboard.vercel.app/login"
           h3="El Buen Sabor"
           p="Store management"
