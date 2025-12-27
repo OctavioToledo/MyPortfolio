@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    gap: 20px;
+    margin-top: 70px;
+  }
+  
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  
+  @media (min-width: 800px) {
+    .container {
+      padding: 40px;
+    }
+  
+    .description {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container {
+      padding: 60px;
+    }
+  
+    .description {
+      font-size: 20px;
+    }
+  }
+  
