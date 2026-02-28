@@ -6,6 +6,27 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+
+  /* Project Showcase */
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-border: rgba(0, 0, 0, 0.08);
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: 0 12px 48px rgba(0, 0, 0, 0.14);
+  --tag-bg: #f0f0f5;
+  --tag-text: #444;
+  --tag-border: rgba(0, 0, 0, 0.06);
+  --highlight-icon-color: #6c63ff;
+  --highlight-bg: rgba(108, 99, 255, 0.04);
+  --carousel-bg: #f5f5fa;
+  --carousel-dot: #ccc;
+  --carousel-dot-active: #6c63ff;
+  --role-badge-bg: linear-gradient(135deg, #6c63ff, #4f46e5);
+  --role-badge-text: #fff;
+  --link-btn-bg: #1a1a2e;
+  --link-btn-text: #fff;
+  --link-btn-hover: #6c63ff;
+  --muted-text: #777;
+  --divider-color: rgba(0, 0, 0, 0.06);
 }
 
 [data-theme='dark'] {
@@ -16,6 +37,27 @@
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
+
+  /* Project Showcase */
+  --card-bg: rgba(40, 40, 60, 0.8);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --card-shadow-hover: 0 12px 48px rgba(0, 0, 0, 0.45);
+  --tag-bg: rgba(108, 99, 255, 0.12);
+  --tag-text: #c4c0ff;
+  --tag-border: rgba(108, 99, 255, 0.2);
+  --highlight-icon-color: #a89bff;
+  --highlight-bg: rgba(108, 99, 255, 0.08);
+  --carousel-bg: #1a1a2e;
+  --carousel-dot: #555;
+  --carousel-dot-active: #a89bff;
+  --role-badge-bg: linear-gradient(135deg, #7c74ff, #6c63ff);
+  --role-badge-text: #fff;
+  --link-btn-bg: rgba(255, 255, 255, 0.1);
+  --link-btn-text: #e0e0e0;
+  --link-btn-hover: #a89bff;
+  --muted-text: #aaa;
+  --divider-color: rgba(255, 255, 255, 0.06);
 }
 
 body {

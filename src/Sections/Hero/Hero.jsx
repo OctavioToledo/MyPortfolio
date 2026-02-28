@@ -9,7 +9,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import translateLight from '../../assets/translate-light.svg';
 import translateDark from '../../assets/translate-dark.svg';
-import CV from "../../assets/OcToledoResume.pdf";
+import CV from "../../assets/octavioToledo-resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import { useLanguage } from "../../common/LanguageContext";
 
