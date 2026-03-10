@@ -8,7 +8,7 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; {currentYear} Toledo Octavio. <br />
+        &copy; {currentYear} Toledo Octavio M. <br />
         {t('footerText')}
       </p>
     </section>
