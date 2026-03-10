@@ -31,7 +31,7 @@ function Projects() {
     ],
     carouselImages: [omtimeLanding, omtimeFeatures, omtimeCalendar],
     links: [
-      { url: 'https://progestion.vercel.app/', label: t('liveSystem'), icon: deployIcon },
+      { url: 'https://om-time.vercel.app/', label: t('liveSystem'), icon: deployIcon },
     ],
   };
 
