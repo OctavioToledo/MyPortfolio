@@ -53,7 +53,7 @@ export const Hero = () => {
         <h2>{t('role')}</h2>
         <div className={styles.socialIcons}>
           <span>
-            <a href="https://www.linkedin.com/in/octavio-toledo7/" target="_blank">
+            <a href="https://www.linkedin.com/in/octaviotoledo/" target="_blank">
               <img src={linkedinIcon} alt="Linkedin Icon" />
             </a>
           </span>
